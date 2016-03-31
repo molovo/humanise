@@ -1,0 +1,24 @@
+{
+    "name": "molovo/humanise",
+    "description": "A PHP library for humanising a range of data formats.",
+    "keywords": ["humanise", "humanize"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "James Dinsdale",
+        "email": "hi@molovo.co"
+      }
+    ],
+    "require": {
+      "molovo/str": "^0.1"
+    },
+    "require-dev": {
+      "philliphq/phillip": "^0.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "Molovo\\Humanise\\": "src/Molovo/Humanise/"
+      }
+    },
+    "minimum-stability": "dev"
+}
